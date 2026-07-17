@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanhaiya Lal Jewellers</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            background: #0a0a0a;
+            color: white;
+            line-height: 1.6;
+        }
+        header {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #d4af37;
+        }
+        h1 {
+            color: #d4af37;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            color: #ccc;
+            margin-top: 5px;
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                        url("https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=1200");
+            background-size: cover;
+            background-position: center;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            color: #d4af37;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            max-width: 600px;
+            margin: auto;
+            color: #eee;
+        }
+        .section {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        .section h3 {
+            color: #d4af37;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .departments {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #111;
+            padding: 30px;
+            border: 1px solid #333;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .card h4 {
+            color: #d4af37;
+            margin-bottom: 10px;
+        }
+        .rates {
+            background: #111;
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #333;
+        }
+        .rate-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #333;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact p {
+            margin: 8px 0;
+        }
+        .btn {
+            display: inline-block;
+            background: #d4af37;
+            color: black;
+            padding: 12px 25px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        footer {
+            background: #111;
+            text-align: center;
+            padding: 20px;
+            border-top: 2px solid #d4af37;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kanhaiya Lal Jewellers</h1>
+    <p class="subtitle">Raj Jewellers • Gold | Sarwan Jewellers • Silver</p>
+</header>
+
+<section class="hero">
+    <h2>Timeless Elegance, Crafted for Every Celebration</h2>
+    <p>Discover exquisite gold and silver jewellery from the trusted house of Kanhaiya Lal Jewellers, where tradition meets luxury.</p>
+</section>
+
+<section class="section">
+    <h3>Our Departments</h3>
+    <div class="departments">
+        <div class="card">
+            <h4>Raj Jewellers</h4>
+            <p>Premium Gold Jewellery Collection</p>
+        </div>
+        <div class="card">
+            <h4>Sarwan Jewellers</h4>
+            <p>Elegant Silver Jewellery Collection</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <h3>Today's Gold & Silver Rates</h3>
+    <div class="rates">
+        <div class="rate-item">
+            <span>24K Gold</span>
+            <span>₹74,500 / 10g</span>
+        </div>
+        <div class="rate-item">
+            <span>22K Gold</span>
+            <span>₹68,300 / 10g</span>
+        </div>
+        <div class="rate-item">
+            <span>Silver 999</span>
+            <span>₹92,000 / kg</span>
+        </div>
+    </div>
+</section>
+
+<section class="section contact">
+    <h3>Visit Our Showroom</h3>
+    <p><strong>Address:</strong> Station Road, Kahalgaon, In Front of SBI Bank</p>
+    <p><strong>Phone:</strong> 9431462409</p>
+    <p><strong>Store Timings:</strong> 11:00 AM – 8:00 PM</p>
+    <p><strong>Thursday:</strong> Closed</p>
+    <a href="https://wa.me/919431462409" class="btn">Enquire on WhatsApp</a>
+</section>
+
+<footer>
+    <p>© 2026 Kanhaiya Lal Jewellers | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
